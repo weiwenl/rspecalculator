@@ -13,7 +13,6 @@ describe Calculator do
   end
 
   describe '#subtract' do
-    it 'subtracts two positive numbers' do
-    end
+    it 'subtracts two positive numbers'
   end
 end
