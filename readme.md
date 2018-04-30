@@ -10,15 +10,17 @@ In this exercise, you will be running tests that we have provided and writing yo
 
 #### Step 2: Red-Green-Refactor
 
-The first few tests have already been written for the add and subtract methods. Read through those tests, then write the necessary code in `lib/calc.rb` to make them pass.
+The first few tests have already been written for the add methods. Read through those tests, then write the necessary code in `lib/calc.rb` to make them pass.
 
 Once you have your tests passing: congratulations! You've just completed your first testing cycle. In Test-driven Development, developers deconstruct a problem, write tests for that problem, then write the code to pass those tests.
 
 #### Step 3: Write your own tests
 
-I've written stubs for the power, sum, multiply, and factorial methods. When you look at the `calc_spec.rb` file you'll see a bunch of "it" statements that aren't being passed a block. The "it" statements are our stubs. Also, when you run rspec they will show up in yellow.
+I've written stubs for the subtract method. When you look at the `calc_spec.rb` file you'll see a bunch of "it" statements that aren't being passed a block. The "it" statements are our stubs. Also, when you run rspec they will show up in yellow.
 
 Find those stubs and fill them out by writing tests. Once you have written the tests and can see that they are failing (red). Now make them pass (green).
+
+#### Step 4: Write methods for multiply, divide, power and factorial methods.
 
 #### Resources:
 
